@@ -14,12 +14,12 @@ const projectnameSchema = new Schema(
                 ref : "Project"
             }
         ],
-        graphicProject : [
-            {
-                type : Schema.Types.ObjectId,
-                ref : "Graphicdesgin"
-            }
-        ]
+        // graphicProject : [
+        //     {
+        //         type : Schema.Types.ObjectId,
+        //         ref : "Graphicdesgin"
+        //     }
+        // ]
 
     }
 ,{timestamps:true})

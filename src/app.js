@@ -22,7 +22,7 @@ app.use(cookieParser())
 // Routes import
 import projectnameRouter from "./routes/projectname.routes.js"
 import projectRouter from "./routes/project.routes.js"
-import imageRouter from "./routes/graphicimage.routes.js"
+// import imageRouter from "./routes/graphicimage.routes.js"
 import workRouter from "./routes/work.routes.js"
 import offerRouter from "./routes/offer.routes.js"
 import serviceRouter from "./routes/service.routes.js"
@@ -34,7 +34,7 @@ import servicedetailRouter from "./routes/servicedetail.routes.js"
 
 app.use("/api/v1/projectname",projectnameRouter)
 app.use("/api/v1/project",projectRouter)
-app.use("/api/v1/image",imageRouter)
+// app.use("/api/v1/image",imageRouter)
 app.use("/api/v1/work",workRouter)
 app.use("/api/v1/offer",offerRouter)
 app.use("/api/v1/service",serviceRouter)

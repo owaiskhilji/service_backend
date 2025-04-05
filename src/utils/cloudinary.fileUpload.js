@@ -1,5 +1,4 @@
 import { v2 as cloudinary } from 'cloudinary';
-// // fs asal me file ko read write async wagera k liye use hta h
  import fs from "fs"
 
 // Configuration
